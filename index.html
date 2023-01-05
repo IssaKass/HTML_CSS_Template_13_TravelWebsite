@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/variables.css" />
+    <link rel="stylesheet" href="assets/css/layout.css" />
+    <link rel="stylesheet" href="assets/css/home.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Directone | Home</title>
+  </head>
+  <body>
+    <!-- ===== HEADER ===== -->
+    <header class="header">
+      <div class="container">
+        <a href="index.html" class="logo">
+          <i class="fa-regular fa-compass fa-fw logo-icon"></i>
+          <span class="logo-text">Directone</span>
+        </a>
+        <nav class="nav" id="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link active">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="listing.html" class="nav-link">Listing</a>
+            </li>
+            <li class="nav-item">
+              <a href="blog.html" class="nav-link">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+          </ul>
+          <a href="#" class="add-listing"> &plus; Add listing </a>
+        </nav>
+        <div class="menu-toggle" id="menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- ===== LANDING ===== -->
+      <section class="landing">
+        <div class="overlay"></div>
+        <div class="container">
+          <div class="text">
+            <h1>Let's Explore Your Awesome City</h1>
+            <p>
+              Find great places to stay, eat, shop, or visit from local experts.
+            </p>
+          </div>
+          <form action="">
+            <div class="box">
+              <i class="fa-solid fa-magnifying-glass fa-fw icon"></i>
+              <input
+                type="search"
+                id="what-are-you-looking-for"
+                placeholder="What are you looking for ?"
+              />
+            </div>
+            <div class="box">
+              <i class="fa-solid fa-location-dot fa-fw icon"></i>
+              <input
+                type="search"
+                id="search-location"
+                placeholder="Search Location"
+              />
+            </div>
+            <div class="box">
+              <i class="fa-solid fa-angle-down fa-fw icon"></i>
+              <select name="catgories" id="categories">
+                <option value="All Categories" selected>All Categories</option>
+                <option value="Food & Drinks">Food & Drinks</option>
+                <option value="Hotels">Hotels</option>
+                <option value="Shopping">Shopping</option>
+                <option value="Beauty">Beauty</option>
+                <option value="Fitness">Fitness</option>
+                <option value="Clubs">Clubs</option>
+                <option value="Games">Games</option>
+                <option value="Places">Places</option>
+                <option value="Circus">Circus</option>
+                <option value="Theater">Theater</option>
+                <option value="Sports">Sports</option>
+                <option value="Health">Health</option>
+              </select>
+            </div>
+            <div class="box">
+              <i class="fa-solid fa-magnifying-glass fa-fw icon"></i>
+              <input type="submit" value="Search" />
+            </div>
+          </form>
+        </div>
+      </section>
+      <!-- ===== CATEGORIES ====== -->
+      <section class="categories">
+        <div class="container">
+          <div class="category">
+            <i class="fa-solid fa-burger fa-fw category-icon"></i>
+            <h3 class="category-name">Food & Drinks</h3>
+            <span class="num">103</span>
+            <span class="text">Listings</span>
+          </div>
+          <div class="category">
+            <i class="fa-solid fa-hotel fa-fw category-icon"></i>
+            <h3 class="category-name">Hotels</h3>
+            <span class="num">40</span>
+            <span class="text">Listings</span>
+          </div>
+          <div class="category">
+            <i class="fa-solid fa-shopping-bag fa-fw category-icon"></i>
+            <h3 class="category-name">Shopping</h3>
+            <span class="num">100</span>
+            <span class="text">Listings</span>
+          </div>
+          <div class="category">
+            <i class="fa-solid fa-ring fa-fw category-icon"></i>
+            <h3 class="category-name">Beauty</h3>
+            <span class="num">36</span>
+            <span class="text">Listings</span>
+          </div>
+          <div class="category">
+            <i class="fa-solid fa-running fa-fw category-icon"></i>
+            <h3 class="category-name">Fitness</h3>
+            <span class="num">30</span>
+            <span class="text">Listings</span>
+          </div>
+          <div class="category">
+            <i class="fa-solid fa-heart fa-fw category-icon"></i>
+            <h3 class="category-name">Club</h3>
+            <span class="num">12</span>
+            <span class="text">Listings</span>
+          </div>
+          <div class="category">
+            <i class="fa-solid fa-dice-six fa-fw category-icon"></i>
+            <h3 class="category-name">Games</h3>
+            <span class="num">103</span>
+            <span class="text">Listings</span>
+          </div>
+          <div class="category">
+            <i class="fa-solid fa-map-pin fa-fw category-icon"></i>
+            <h3 class="category-name">Places</h3>
+            <span class="num">40</span>
+            <span class="text">Listings</span>
+          </div>
+          <div class="category">
+            <i class="fa-solid fa-horse fa-fw category-icon"></i>
+            <h3 class="category-name">Circus</h3>
+            <span class="num">100</span>
+            <span class="text">Listings</span>
+          </div>
+          <div class="category">
+            <i class="fa-solid fa-theater-masks fa-fw category-icon"></i>
+            <h3 class="category-name">Theater</h3>
+            <span class="num">36</span>
+            <span class="text">Listings</span>
+          </div>
+          <div class="category">
+            <i class="fa-solid fa-dumbbell fa-fw category-icon"></i>
+            <h3 class="category-name">Sports</h3>
+            <span class="num">30</span>
+            <span class="text">Listings</span>
+          </div>
+          <div class="category">
+            <i class="fa-solid fa-hand-holding-medical fa-fw category-icon"></i>
+            <h3 class="category-name">Health</h3>
+            <span class="num">12</span>
+            <span class="text">Listings</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== POPULAR ===== -->
+      <section class="listing section">
+        <div class="container">
+          <p class="section-subtitle">Our listing</p>
+          <h2 class="section-title">Popular listing</h2>
+          <div class="wrapper">
+            <div class="box">
+              <div class="image">
+                <div class="overlay"></div>
+                <img src="assets/images/popular1.webp" alt="" />
+                <i class="fa-solid fa-magnifying-glass fa-fw search-icon"></i>
+              </div>
+              <div class="content">
+                <i class="fa-solid fa-burger fa-fw icon"></i>
+                <p class="category-name">Food & Drink</p>
+                <h3 class="title">Japanese Restaurent</h3>
+                <ul>
+                  <li>
+                    <i class="fa-solid fa-location-dot"></i>
+                    Suite 721 New York NY 10016
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-phone"></i>
+                    +00 123 456 7890
+                  </li>
+                </ul>
+              </div>
+              <div class="review">
+                <div class="left">
+                  <span>Review</span> 5.0/5
+                  <i class="fa-solid fa-star fa-fw"></i> (100)
+                </div>
+                <div class="right">
+                  <i class="fa-regular fa-heart fa-fw like"></i>
+                </div>
+              </div>
+            </div>
+            <div class="box">
+              <div class="image">
+                <div class="overlay"></div>
+                <img src="assets/images/popular2.webp" alt="" />
+                <i class="fa-solid fa-magnifying-glass fa-fw search-icon"></i>
+              </div>
+              <div class="content">
+                <i class="fa-solid fa-hotel fa-fw icon"></i>
+                <p class="category-name">Hotel</p>
+                <h3 class="title">Harbor Lights Hotel</h3>
+                <ul>
+                  <li>
+                    <i class="fa-solid fa-location-dot"></i>
+                    Suite 721 New York NY 10016
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-phone"></i>
+                    +00 123 456 7890
+                  </li>
+                </ul>
+              </div>
+              <div class="review">
+                <div class="left">
+                  <span>Review</span> 5.0/5
+                  <i class="fa-solid fa-star fa-fw"></i> (100)
+                </div>
+                <div class="right">
+                  <i class="fa-regular fa-heart fa-fw like"></i>
+                </div>
+              </div>
+            </div>
+            <div class="box">
+              <div class="image">
+                <div class="overlay"></div>
+                <img src="assets/images/popular3.webp" alt="" />
+                <i class="fa-solid fa-magnifying-glass fa-fw search-icon"></i>
+              </div>
+              <div class="content">
+                <i class="fa-solid fa-shopping-bag fa-fw icon"></i>
+                <p class="category-name">Shopping</p>
+                <h3 class="title">MS Center Mall Of Asia</h3>
+                <ul>
+                  <li>
+                    <i class="fa-solid fa-location-dot"></i>
+                    Suite 721 New York NY 10016
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-phone"></i>
+                    +00 123 456 7890
+                  </li>
+                </ul>
+              </div>
+              <div class="review">
+                <div class="left">
+                  <span>Review</span> 5.0/5
+                  <i class="fa-solid fa-star fa-fw"></i> (100)
+                </div>
+                <div class="right">
+                  <i class="fa-regular fa-heart fa-fw like"></i>
+                </div>
+              </div>
+            </div>
+            <div class="box">
+              <div class="image">
+                <div class="overlay"></div>
+                <img src="assets/images/popular4.webp" alt="" />
+                <i class="fa-solid fa-magnifying-glass fa-fw search-icon"></i>
+              </div>
+              <div class="content">
+                <i class="fa-solid fa-running fa-fw icon"></i>
+                <p class="category-name">Gym Fitness</p>
+                <h3 class="title">Maxout Fitness gym</h3>
+                <ul>
+                  <li>
+                    <i class="fa-solid fa-location-dot"></i>
+                    Suite 721 New York NY 10016
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-phone"></i>
+                    +00 123 456 7890
+                  </li>
+                </ul>
+              </div>
+              <div class="review">
+                <div class="left">
+                  <span>Review</span> 5.0/5
+                  <i class="fa-solid fa-star fa-fw"></i> (100)
+                </div>
+                <div class="right">
+                  <i class="fa-regular fa-heart fa-fw like"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ===== SPECIALS OFFERS ===== -->
+      <section class="special-offers section">
+        <div class="container">
+          <div class="holder">
+            <div class="image">
+              <img src="assets/images/special-offers.webp" alt="" />
+            </div>
+            <div class="text">
+              <p class="section-subtitle">Special offers</p>
+              <h3 class="section-title">
+                We have special offers every now and then
+              </h3>
+            </div>
+            <div class="link">
+              <a href="#">Show special offers</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ===== OUR LISTING ===== -->
+      <section class="listing section">
+        <div class="container">
+          <p class="section-subtitle">Listing</p>
+          <h2 class="section-title">Our listing</h2>
+          <div class="wrapper">
+            <div class="box">
+              <div class="image">
+                <div class="overlay"></div>
+                <img src="assets/images/listing1.webp" alt="" />
+                <i class="fa-solid fa-magnifying-glass fa-fw search-icon"></i>
+              </div>
+              <div class="content">
+                <i class="fa-solid fa-ring fa-fw icon"></i>
+                <p class="category-name">Beauty</p>
+                <h3 class="title">Japanese Restaurent</h3>
+                <ul>
+                  <li>
+                    <i class="fa-solid fa-location-dot"></i>
+                    Suite 721 New York NY 10016
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-phone"></i>
+                    +00 123 456 7890
+                  </li>
+                </ul>
+              </div>
+              <div class="review">
+                <div class="left">
+                  <span>Review</span> 5.0/5
+                  <i class="fa-solid fa-star fa-fw"></i> (100)
+                </div>
+                <div class="right">
+                  <i class="fa-regular fa-heart fa-fw like"></i>
+                </div>
+              </div>
+            </div>
+            <div class="box">
+              <div class="image">
+                <div class="overlay"></div>
+                <img src="assets/images/listing2.webp" alt="" />
+                <i class="fa-solid fa-magnifying-glass fa-fw search-icon"></i>
+              </div>
+              <div class="content">
+                <i class="fa-solid fa-heart fa-fw icon"></i>
+                <p class="category-name">Clubs</p>
+                <h3 class="title">Harbor Lights Hotel</h3>
+                <ul>
+                  <li>
+                    <i class="fa-solid fa-location-dot"></i>
+                    Suite 721 New York NY 10016
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-phone"></i>
+                    +00 123 456 7890
+                  </li>
+                </ul>
+              </div>
+              <div class="review">
+                <div class="left">
+                  <span>Review</span> 5.0/5
+                  <i class="fa-solid fa-star fa-fw"></i> (100)
+                </div>
+                <div class="right">
+                  <i class="fa-regular fa-heart fa-fw like"></i>
+                </div>
+              </div>
+            </div>
+            <div class="box">
+              <div class="image">
+                <div class="overlay"></div>
+                <img src="assets/images/listing3.webp" alt="" />
+                <i class="fa-solid fa-magnifying-glass fa-fw search-icon"></i>
+              </div>
+              <div class="content">
+                <i class="fa-solid fa-horse fa-fw icon"></i>
+                <p class="category-name">Shopping</p>
+                <h3 class="title">MS Center Mall Of Asia</h3>
+                <ul>
+                  <li>
+                    <i class="fa-solid fa-location-dot"></i>
+                    Suite 721 New York NY 10016
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-phone"></i>
+                    +00 123 456 7890
+                  </li>
+                </ul>
+              </div>
+              <div class="review">
+                <div class="left">
+                  <span>Review</span> 5.0/5
+                  <i class="fa-solid fa-star fa-fw"></i> (100)
+                </div>
+                <div class="right">
+                  <i class="fa-regular fa-heart fa-fw like"></i>
+                </div>
+              </div>
+            </div>
+            <div class="box">
+              <div class="image">
+                <div class="overlay"></div>
+                <img src="assets/images/listing4.webp" alt="" />
+                <i class="fa-solid fa-magnifying-glass fa-fw search-icon"></i>
+              </div>
+              <div class="content">
+                <i class="fa-solid fa-theater-masks fa-fw icon"></i>
+                <p class="category-name">Theater</p>
+                <h3 class="title">Maxout Fitness gym</h3>
+                <ul>
+                  <li>
+                    <i class="fa-solid fa-location-dot"></i>
+                    Suite 721 New York NY 10016
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-phone"></i>
+                    +00 123 456 7890
+                  </li>
+                </ul>
+              </div>
+              <div class="review">
+                <div class="left">
+                  <span>Review</span> 5.0/5
+                  <i class="fa-solid fa-star fa-fw"></i> (100)
+                </div>
+                <div class="right">
+                  <i class="fa-regular fa-heart fa-fw like"></i>
+                </div>
+              </div>
+            </div>
+            <div class="box">
+              <div class="image">
+                <div class="overlay"></div>
+                <img src="assets/images/listing5.webp" alt="" />
+                <i class="fa-solid fa-magnifying-glass fa-fw search-icon"></i>
+              </div>
+              <div class="content">
+                <i class="fa-solid fa-theater-masks fa-fw icon"></i>
+                <p class="category-name">Theater</p>
+                <h3 class="title">Japanese Restaurent</h3>
+                <ul>
+                  <li>
+                    <i class="fa-solid fa-location-dot"></i>
+                    Suite 721 New York NY 10016
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-phone"></i>
+                    +00 123 456 7890
+                  </li>
+                </ul>
+              </div>
+              <div class="review">
+                <div class="left">
+                  <span>Review</span> 5.0/5
+                  <i class="fa-solid fa-star fa-fw"></i> (100)
+                </div>
+                <div class="right">
+                  <i class="fa-regular fa-heart fa-fw like"></i>
+                </div>
+              </div>
+            </div>
+            <div class="box">
+              <div class="image">
+                <div class="overlay"></div>
+                <img src="assets/images/listing6.webp" alt="" />
+                <i class="fa-solid fa-dumbbell fa-fw search-icon"></i>
+              </div>
+              <div class="content">
+                <i class="fa-solid fa-heart fa-fw icon"></i>
+                <p class="category-name">Sports</p>
+                <h3 class="title">Harbor Lights Hotel</h3>
+                <ul>
+                  <li>
+                    <i class="fa-solid fa-location-dot"></i>
+                    Suite 721 New York NY 10016
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-phone"></i>
+                    +00 123 456 7890
+                  </li>
+                </ul>
+              </div>
+              <div class="review">
+                <div class="left">
+                  <span>Review</span> 5.0/5
+                  <i class="fa-solid fa-star fa-fw"></i> (100)
+                </div>
+                <div class="right">
+                  <i class="fa-regular fa-heart fa-fw like"></i>
+                </div>
+              </div>
+            </div>
+            <div class="box">
+              <div class="image">
+                <div class="overlay"></div>
+                <img src="assets/images/listing7.webp" alt="" />
+                <i class="fa-solid fa-magnifying-glass fa-fw search-icon"></i>
+              </div>
+              <div class="content">
+                <i class="fa-solid fa-dice-six fa-fw icon"></i>
+                <p class="category-name">Games</p>
+                <h3 class="title">MS Center Mall Of Asia</h3>
+                <ul>
+                  <li>
+                    <i class="fa-solid fa-location-dot"></i>
+                    Suite 721 New York NY 10016
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-phone"></i>
+                    +00 123 456 7890
+                  </li>
+                </ul>
+              </div>
+              <div class="review">
+                <div class="left">
+                  <span>Review</span> 5.0/5
+                  <i class="fa-solid fa-star fa-fw"></i> (100)
+                </div>
+                <div class="right">
+                  <i class="fa-regular fa-heart fa-fw like"></i>
+                </div>
+              </div>
+            </div>
+            <div class="box">
+              <div class="image">
+                <div class="overlay"></div>
+                <img src="assets/images/listing8.webp" alt="" />
+                <i class="fa-solid fa-theater-masks fa-fw search-icon"></i>
+              </div>
+              <div class="content">
+                <i class="fa-solid fa-map-pin fa-fw icon"></i>
+                <p class="category-name">Places</p>
+                <h3 class="title">Maxout Fitness gym</h3>
+                <ul>
+                  <li>
+                    <i class="fa-solid fa-location-dot"></i>
+                    Suite 721 New York NY 10016
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-phone"></i>
+                    +00 123 456 7890
+                  </li>
+                </ul>
+              </div>
+              <div class="review">
+                <div class="left">
+                  <span>Review</span> 5.0/5
+                  <i class="fa-solid fa-star fa-fw"></i> (100)
+                </div>
+                <div class="right">
+                  <i class="fa-regular fa-heart fa-fw like"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== WELCOME ====== -->
+      <section class="welcome">
+        <div class="container">
+          <div class="image">
+            <img src="assets/images/welcome.webp" alt="" />
+          </div>
+          <div class="text">
+            <p class="section-subtitle">Welcome to directone</p>
+            <h2 class="section-title">Directone a directory & listing</h2>
+            <p class="description">
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts. Separated
+              they live in Bookmarksgrove right at the coast of the Semantics, a
+              large language ocean.
+            </p>
+            <p class="description">
+              A small river named Duden flows by their place and supplies it
+              with the necessary regelialia. It is a paradisematic country, in
+              which roasted parts of sentences fly into your mouth.
+            </p>
+            <div class="stats">
+              <div class="stat">
+                <span class="num">50</span>
+                <p>Years of exprience</p>
+              </div>
+              <div class="stat">
+                <span class="num">210K+</span>
+                <p>Total listing</p>
+              </div>
+              <div class="stat">
+                <span class="num">450</span>
+                <p>Company staf</p>
+              </div>
+              <div class="stat">
+                <span class="num">100</span>
+                <p>Happy people</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ===== TESTIMONIAL ===== -->
+      <section class="testimonial section">
+        <div class="container">
+          <p class="section-subtitle">Testimonial</p>
+          <h2 class="section-title">Happy people</h2>
+          <div class="wrapper">
+            <div class="box">
+              <i class="fa-solid fa-quote-left fa-fw icon"></i>
+              <p class="description">
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts.
+              </p>
+              <div class="info">
+                <img src="assets/images/testimonial1.webp" alt="" />
+                <div class="text">
+                  <h3>Roger Scott</h3>
+                  <p>Marketing manager</p>
+                </div>
+              </div>
+            </div>
+            <div class="box">
+              <i class="fa-solid fa-quote-left fa-fw icon"></i>
+              <p class="description">
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts.
+              </p>
+              <div class="info">
+                <img src="assets/images/testimonial2.webp" alt="" />
+                <div class="text">
+                  <h3>Roger Scott</h3>
+                  <p>Marketing manager</p>
+                </div>
+              </div>
+            </div>
+            <div class="box">
+              <i class="fa-solid fa-quote-left fa-fw icon"></i>
+              <p class="description">
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts.
+              </p>
+              <div class="info">
+                <img src="assets/images/testimonial3.webp" alt="" />
+                <div class="text">
+                  <h3>Roger Scott</h3>
+                  <p>Marketing manager</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ul class="dots">
+            <li class="active"></li>
+            <li></li>
+          </ul>
+        </div>
+      </section>
+      <!-- ===== FIND ===== -->
+      <section class="find section">
+        <div class="pattern"></div>
+        <div class="container">
+          <p class="section-subtitle">Let's find out</p>
+          <h2 class="section-title">How it works</h2>
+          <div class="video">
+            <i class="fa-solid fa-play fa-fw icon"></i>
+            <div class="image"></div>
+          </div>
+          <div class="wrapper">
+            <div class="box">
+              <i class="fa-solid fa-hotel fa-fw icon"></i>
+              <h3 class="title">Find what you want</h3>
+              <p class="description">
+                A small river named Duden flows by their place and supplies it
+                with the necessary regelialia. It is a paradisematic country, in
+                which roasted parts of sentences fly into your mouth.
+              </p>
+            </div>
+            <div class="box">
+              <i class="fa-solid fa-hotel fa-fw icon"></i>
+              <h3 class="title">Select the best place</h3>
+              <p class="description">
+                A small river named Duden flows by their place and supplies it
+                with the necessary regelialia. It is a paradisematic country, in
+                which roasted parts of sentences fly into your mouth.
+              </p>
+            </div>
+            <div class="box">
+              <i class="fa-solid fa-hotel fa-fw icon"></i>
+              <h3 class="title">Explore the place</h3>
+              <p class="description">
+                A small river named Duden flows by their place and supplies it
+                with the necessary regelialia. It is a paradisematic country, in
+                which roasted parts of sentences fly into your mouth.
+              </p>
+            </div>
+            <div class="box">
+              <i class="fa-solid fa-hotel fa-fw icon"></i>
+              <h3 class="title">Choose a category</h3>
+              <p class="description">
+                A small river named Duden flows by their place and supplies it
+                with the necessary regelialia. It is a paradisematic country, in
+                which roasted parts of sentences fly into your mouth.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ===== BLOG ===== -->
+      <section class="blog section">
+        <div class="container">
+          <p class="section-subtitle">Our blog</p>
+          <h2 class="section-title">Recent blog</h2>
+          <div class="wrapper">
+            <div class="box">
+              <div class="image">
+                <div class="overlay"></div>
+                <img src="assets/images/blog1.webp" alt="" />
+                <div class="description">
+                  <div class="left">
+                    <img src="assets/images/testimonial1.webp" alt="" /><span
+                      >John Dorf</span
+                    >
+                  </div>
+                  <div class="right">
+                    <i class="fa-solid fa-heart fa-fw like"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="content">
+                <div class="top">
+                  <span>Dec. 05, 2020</span>
+                  <span>3 Comments</span>
+                </div>
+                <h3 class="title">Explore the best restaurant in new york</h3>
+                <p>
+                  A small river named Duden flows by their place and supplies it
+                  with the necessary regelialia.
+                </p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="image">
+                <div class="overlay"></div>
+                <img src="assets/images/blog2.webp" alt="" />
+                <div class="description">
+                  <div class="left">
+                    <img src="assets/images/testimonial1.webp" alt="" /><span
+                      >John Dorf</span
+                    >
+                  </div>
+                  <div class="right">
+                    <i class="fa-solid fa-heart fa-fw like"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="content">
+                <div class="top">
+                  <span>Dec. 05, 2020</span>
+                  <span>3 Comments</span>
+                </div>
+                <h3 class="title">Explore the best restaurant in new york</h3>
+                <p>
+                  A small river named Duden flows by their place and supplies it
+                  with the necessary regelialia.
+                </p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="image">
+                <div class="overlay"></div>
+                <img src="assets/images/blog3.webp" alt="" />
+                <div class="description">
+                  <div class="left">
+                    <img src="assets/images/testimonial1.webp" alt="" /><span
+                      >John Dorf</span
+                    >
+                  </div>
+                  <div class="right">
+                    <i class="fa-solid fa-heart fa-fw like"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="content">
+                <div class="top">
+                  <span>Dec. 05, 2020</span>
+                  <span>3 Comments</span>
+                </div>
+                <h3 class="title">Explore the best restaurant in new york</h3>
+                <p>
+                  A small river named Duden flows by their place and supplies it
+                  with the necessary regelialia.
+                </p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="image">
+                <div class="overlay"></div>
+                <img src="assets/images/blog4.webp" alt="" />
+                <div class="description">
+                  <div class="left">
+                    <img src="assets/images/testimonial1.webp" alt="" /><span
+                      >John Dorf</span
+                    >
+                  </div>
+                  <div class="right">
+                    <i class="fa-solid fa-heart fa-fw like"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="content">
+                <div class="top">
+                  <span>Dec. 05, 2020</span>
+                  <span>3 Comments</span>
+                </div>
+                <h3 class="title">Explore the best restaurant in new york</h3>
+                <p>
+                  A small river named Duden flows by their place and supplies it
+                  with the necessary regelialia.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+      <div class="container">
+        <div class="box logo-box">
+          <a href="index.html" class="logo">Directone</a>
+          <p>
+            A small river named Duden flows by their place and supplies it with
+            the necessary regelialia.
+          </p>
+          <div class="social">
+            <a href="#"><i class="fa-brands fa-twitter fa-fw"></i> </a>
+            <a href="#"><i class="fa-brands fa-facebook-f fa-fw"></i> </a>
+            <a href="#"><i class="fa-brands fa-instagram fa-fw"></i></a>
+          </div>
+        </div>
+        <div class="box links-box">
+          <p class="title">Explore</p>
+          <ul class="links">
+            <li><a href="">About us</a></li>
+            <li><a href="">Account</a></li>
+            <li><a href="">Listing</a></li>
+            <li><a href="">Pricing Packages</a></li>
+          </ul>
+        </div>
+        <div class="box links-box">
+          <p class="title">Quick Links</p>
+          <ul class="links">
+            <li><a href="">Contact Us</a></li>
+            <li><a href="">Terms & Conditions</a></li>
+            <li><a href="">Privace</a></li>
+            <li><a href="">Feedbacks</a></li>
+          </ul>
+        </div>
+        <div class="box links-box">
+          <p class="title">Categories</p>
+          <ul class="links">
+            <li><a href="">Food & Drinks</a></li>
+            <li><a href="">Hotels</a></li>
+            <li><a href="">Shopping</a></li>
+            <li><a href="">Beauty</a></li>
+            <li><a href="">Fitness</a></li>
+            <li><a href="">Club</a></li>
+          </ul>
+        </div>
+        <div class="box question-box">
+          <p class="title">Have A Question?</p>
+          <p>
+            <i class="fa-solid fa-map fa-fw"></i>203 Fake St. Mountain View, San
+            Francisco, California, USA
+          </p>
+          <p><i class="fa-solid fa-phone fa-fw"></i>+2 392 3929 210</p>
+          <p>
+            <i class="fa-solid fa-paper-plane fa-fw"></i>info@yourdomain.com
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ===== JS ===== -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

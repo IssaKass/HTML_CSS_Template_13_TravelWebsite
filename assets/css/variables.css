@@ -1,0 +1,100 @@
+/* ===== VARIABLES ===== */
+:root {
+  /* Colors */
+  --clr-primary-400: hsl(356 100% 63%);
+  --clr-primary-500: hsl(357 86% 58%);
+
+  --clr-accent-800: hsl(215 29% 12%);
+  --clr-accent-900: hsl(215 27% 9%);
+  --clr-accent-transparent: hsl(215 28% 12% / 95%);
+
+  --clr-neutral-100: hsl(206 30% 95%);
+  --clr-neutral-200: hsl(0, 0%, 90%);
+  --clr-neutral-300: hsl(0, 0%, 75%);
+  --clr-neutral-400: hsl(0, 0%, 60%);
+  --clr-neutral-500: hsl(0, 0%, 50%);
+
+  --clr-white: #ffffff;
+  --clr-black: #000000;
+
+  --shadow: 4px 4px 5px 0 rgb(0 0 0 / 5%);
+  --shadow-hover: 4px 10px 10px 0 rgb(0 0 0 / 5%);
+
+  /* Fonts & Typography */
+  --ff-base: "Open Sans", sans-serif;
+
+  --fs-base: 1rem;
+
+  --h1-fs: calc(var(--fs-base) * 2);
+  --h2-fs: calc(var(--fs-base) * 1.5);
+  --h3-fs: calc(var(--fs-base) * 1.25);
+  --h4-fs: calc(var(--fs-base) * 1);
+  --h5-fs: calc(var(--fs-base) * 0.825);
+  --h6-fs: calc(var(--fs-base) * 0.75);
+
+  --fs-6xs: calc(var(--fs-base) * 0.25);
+  --fs-5xs: calc(var(--fs-base) * 0.3125);
+  --fs-4xs: calc(var(--fs-base) * 0.375);
+  --fs-3xs: calc(var(--fs-base) * 0.5);
+  --fs-2xs: calc(var(--fs-base) * 0.625);
+  --fs-xs: calc(var(--fs-base) * 0.75);
+  --fs-sm: calc(var(--fs-base) * 0.875);
+  --fs-md: var(--fs-base);
+  --fs-lg: calc(var(--fs-base) * 1.25);
+  --fs-xl: calc(var(--fs-base) * 1.5);
+  --fs-2xl: calc(var(--fs-base) * 2);
+  --fs-3xl: calc(var(--fs-base) * 2.5);
+  --fs-4xl: calc(var(--fs-base) * 3);
+  --fs-5xl: calc(var(--fs-base) * 3.75);
+  --fs-6xl: calc(var(--fs-base) * 4.5);
+
+  --fw-200: 200;
+  --fw-300: 300;
+  --fw-400: 400;
+  --fw-500: 500;
+  --fw-600: 600;
+  --fw-700: 700;
+  --fw-800: 800;
+  --fw-900: 900;
+
+  --line-height-sm: 1.2;
+  --line-height-md: 1.6;
+
+  --letter-spacing-md: 1px;
+
+  /* Margins & Paddings */
+  --spacing-base: 1em;
+
+  --spacing-6xs: calc(var(--spacing-base) * 0.25);
+  --spacing-5xs: calc(var(--spacing-base) * 0.3125);
+  --spacing-4xs: calc(var(--spacing-base) * 0.375);
+  --spacing-3xs: calc(var(--spacing-base) * 0.5);
+  --spacing-2xs: calc(var(--spacing-base) * 0.625);
+  --spacing-xs: calc(var(--spacing-base) * 0.75);
+  --spacing-sm: calc(var(--spacing-base) * 0.875);
+  --spacing-md: var(--spacing-base);
+  --spacing-lg: calc(var(--spacing-base) * 1.25);
+  --spacing-xl: calc(var(--spacing-base) * 1.5);
+  --spacing-2xl: calc(var(--spacing-base) * 2);
+  --spacing-3xl: calc(var(--spacing-base) * 2.5);
+  --spacing-4xl: calc(var(--spacing-base) * 3);
+  --spacing-5xl: calc(var(--spacing-base) * 3.75);
+  --spacing-6xl: calc(var(--spacing-base) * 4.5);
+
+  --gap: var(--spacing-lg);
+
+  /* Border & Radius */
+  --rad-sm: 0.5em;
+  --rad-md: 1em;
+  --rad-lg: 1.5em;
+  --rad-circle: 50%;
+  --rad-max: 100vmax;
+
+  /* Timing */
+  --timing-md: 0.3s;
+
+  /* z index */
+  --z-top: 1000;
+  --z-fixed: 100;
+  --z-back: -1;
+}
